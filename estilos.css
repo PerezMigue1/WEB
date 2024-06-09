@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: radial-gradient(#7ce8a9, #a9def9);
+    height: 100%;
+    padding: 1px;
+    }
+.titulo{
+    font-family: "Nabla", cursive;
+    font-size: 70px;
+    background-color: rgba(0, 255, 128, 0.822);
+    width: 100%;   
+    padding: 6%;
+    text-align: center;
+}
+
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    color: rgb(231, 98, 15);
+}
+
+.logo{
+    border: 12px dashed red;
+    border-radius: 50px;
+}
+
+table{
+    border: 5px solid black;
+    border-collapse: inherit;
+}
+tr:nth-of-type(1)>th{
+    background-color: #f0d316;
+}
+
+th{
+    background-color: #87f016;
+    color: black;
+}
+
+td, th{
+    padding: 5px;
+    text-align: center;
+}
+
+.subhora{
+    padding: 50px;
+    font-family: "Bungee Spice", sans-serif;
+    font-size: 25px;
+}
